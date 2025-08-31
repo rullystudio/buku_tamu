@@ -1,0 +1,15 @@
+td {
+    border: 0px;
+}
+
+td.bt{
+    border-bottom: 1px #000 solid;
+}
+
+td.f {
+    width: 10px;
+}
+
+td.s {
+    width: 10px;
+}

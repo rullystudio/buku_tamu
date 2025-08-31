@@ -1,0 +1,9 @@
+
+   CREATE TABLE `user` (
+       `id` INT(11) NOT NULL AUTO_INCREMENT,
+       `nama` VARCHAR(40) NOT NULL,
+       `email` VARCHAR(40) NOT NULL,
+       `pesan` TEXT NULL DEFAULT NULL,
+       `tanggal` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+       PRIMARY KEY (`id`)
+   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
