@@ -1,0 +1,39 @@
+# Sistem umum
+.DS_Store
+Thumbs.db
+
+# Folder cache & log
+/vendor/
+/node_modules/
+/cache/
+/logs/
+/tmp/
+
+# Composer dependencies
+composer.lock
+
+# Environment & konfigurasi sensitif
+.env
+*.env
+config.php
+database.php
+
+# File upload pengguna
+uploads/
+files/
+images/uploads/
+
+# Backup & database dump
+*.sql
+*.bak
+*.backup
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistem XAMPP / Laravel
+/storage/
+bootstrap/cache/
